@@ -1,10 +1,9 @@
-# Feature4Test
+# Test2Feature
 This tool that objective show the test traceability for feature in systems HCSs.
 
 ## First steps:
 
-* Clone this repository: `git clone https://github.com/willianferrari/Feature4Test.git `
-* Clone the Git repository of the target system in folder on your computer (as an example, SqLite Git repository: https://github.com/sqlite/sqlite.git)
+* Clone this repository: `git clone https://github.com/willianferrari/Test2Feature.git `
 
 ## Required Software:
 
@@ -18,7 +17,7 @@ This tool that objective show the test traceability for feature in systems HCSs.
 
 ## Setup to Run:
 
-It will be necessary to update the parameters of the Exec.sh file:
+It will be necessary to update the parameters of the ConfigFile.sh file:
 * Parameters
   - **REPGIT**: URL GitHub System;
   - **SYSFOLDER**: system folder name;
@@ -26,4 +25,4 @@ It will be necessary to update the parameters of the Exec.sh file:
   - **NCOMMIT**: the Git commit hash to analyze;
 
 * Type the following command in a command line:
-  - ./Exec.sh
+  - ./ConfigFile.sh

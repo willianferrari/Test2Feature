@@ -88,11 +88,11 @@ def main():
 
     df = mergerfeature(sys.argv[1],sys.argv[2])
 
-    df.to_csv('result/rastrfeature.csv')
+    df.to_csv('result/test2feature.csv')
 
     df = mergerteste(sys.argv[1],sys.argv[2])
 
-    df.to_csv('result/rastrtest.csv')
+    df.to_csv('result/feature2test.csv')
 
 main()
 

@@ -78,6 +78,6 @@ def main():
 
     dfRef = xmlparserReferences(listFile,sys.argv[2])
 
-    dfRef.to_csv('result/ref.csv')
+    dfRef.to_csv('result/MineTestLines.csv')
 
 main()
