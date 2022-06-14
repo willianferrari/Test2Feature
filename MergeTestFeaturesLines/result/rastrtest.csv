@@ -553,8 +553,8 @@
 551,speedtest1.c,main,main.c,sqlite3_create_function,1995,2007.0,BASE,1964,2064
 552,speedtest1.c,main,main.c,sqlite3_db_config,914,983.0,BASE,892,1064
 553,speedtest1.c,main,main.c,sqlite3_trace,2134,2150.0,BASE,2113,2208
-554,speedtest1.c,main,main.c,sqlite3_trace,2134,2150.0,BASE,2124,2208
-555,speedtest1.c,main,main.c,sqlite3_trace,2134,2150.0,BASE,2133,2151
+554,speedtest1.c,main,main.c,sqlite3_trace,2134,2150.0,BASE,2133,2151
+555,speedtest1.c,main,main.c,sqlite3_trace,2134,2150.0,BASE,2124,2208
 556,threadtest3.c,sqlite_error,main.c,sqlite3_errcode,2657,2665.0,BASE,2651,2788
 557,threadtest3.c,sqlite_error,main.c,sqlite3_errmsg,2574,2595.0,BASE,2567,2651
 558,threadtest3.c,sqlite_error,main.c,sqlite3_extended_errcode,2666,2674.0,BASE,2651,2788
@@ -569,8 +569,8 @@
 567,wordcount.c,main,main.c,sqlite3_create_function,1995,2007.0,BASE,1964,2064
 568,wordcount.c,main,main.c,sqlite3_errmsg,2574,2595.0,BASE,2567,2651
 569,wordcount.c,main,main.c,sqlite3_trace,2134,2150.0,BASE,2113,2208
-570,wordcount.c,main,main.c,sqlite3_trace,2134,2150.0,BASE,2124,2208
-571,wordcount.c,main,main.c,sqlite3_trace,2134,2150.0,BASE,2133,2151
+570,wordcount.c,main,main.c,sqlite3_trace,2134,2150.0,BASE,2133,2151
+571,wordcount.c,main,main.c,sqlite3_trace,2134,2150.0,BASE,2124,2208
 572,ossfuzz.c,LLVMFuzzerTestOneInput,main.c,sqlite3_close,1288,1288.0,BASE,1261,1384
 573,ossfuzz.c,LLVMFuzzerTestOneInput,main.c,sqlite3_db_config,914,983.0,BASE,892,1064
 574,ossfuzz.c,LLVMFuzzerTestOneInput,main.c,sqlite3_limit,2832,2876.0,BASE,2829,2944

@@ -1,9 +1,9 @@
-# TraceTest4Feature
+# Feature4Test
 This tool that objective show the test traceability for feature in systems HCSs.
 
 ## First steps:
 
-* Clone this repository: `git clone https://github.com/willianferrari/TraceTest4Feature.git `
+* Clone this repository: `git clone https://github.com/willianferrari/Feature4Test.git `
 * Clone the Git repository of the target system in folder on your computer (as an example, SqLite Git repository: https://github.com/sqlite/sqlite.git)
 
 ## Required Software:
@@ -20,8 +20,8 @@ This tool that objective show the test traceability for feature in systems HCSs.
 
 It will be necessary to update the parameters of the Exec.sh file:
 * Parameters
-  - **PATHSYS**: the Git project folder;
-  - **PATHTEST**: the Git project test folder;
+  - **REPGIT**: URL GitHub System;
+  - **SYSFOLDER**: system folder name;
   - **TESTFOLDER**: test folder name;
   - **NCOMMIT**: the Git commit hash to analyze;
 
