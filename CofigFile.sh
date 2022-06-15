@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#repository URL
+# #repository URL
 REPGIT="https://github.com/sqlite/sqlite.git"
 #Name of System Folder
 SYSFOLDER="sqlite"
@@ -60,4 +60,4 @@ python3 MineTestLines.py $PATHTEST $PATHXML $TESTFOLDER
 # Exec Merge Feature X Tests
 echo "Running MergeTestFeaturesLines"
 cd "${PATHSCRIPT}/MergeTestFeaturesLines"
-python3 MergeTestFeaturesLies.py "${PATHSCRIPT}/MineTestLines/result/MineTestLines.csv" "${PATHSCRIPT}/result-featurelocation/${NCOMMIT}/FilesFeature/feature.csv"
+python3 MergeTestFeaturesLines.py "${PATHSCRIPT}/MineTestLines/result/MineTestLines.csv" "${PATHSCRIPT}/result-featurelocation/${NCOMMIT}/FilesFeature/feature.csv"

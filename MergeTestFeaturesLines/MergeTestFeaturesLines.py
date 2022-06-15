@@ -36,6 +36,7 @@ def mergerfeature(ref,features):
     df = pd.merge(ref_df,features_df ,on=['TargetFile'])
 
     df = df.loc[((df['FetFrom']>= df['LineFrom']) & (df['FetFrom']<= df['LineTo']) & (df['FetTo'] <= df['LineTo']))]
+    df['LineTo'] = df['LineTo'].astype(int)
     del df["Unnamed: 0"]
     del df["Commit Nr"]
     df = df.reset_index(drop=True)
@@ -75,8 +76,7 @@ def mergerteste(ref,features):
     df = pd.merge(ref_df,features_df ,on=['TargetFile'])
 
     df = df.loc[((df['LineFrom']>= df['FetFrom']) & (df['LineFrom']<= df['FetTo']) & (df['LineTo'] <= df['FetTo']))]
-
-
+    df['LineTo'] = df['LineTo'].astype(int)
     del df["Unnamed: 0"]
     del df["Commit Nr"]
     df = df.reset_index(drop=True)
