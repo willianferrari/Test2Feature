@@ -1,4 +1,4 @@
-,TestFile,TestCase,TargetFile,TargetFunction,LineFrom,LineTo,FeatureName,FetFrom,FetTo
+,TestFile,TestCase,TargetFile,TargetFunction,LineFrom,LineTo,FeatureName,FeatFrom,FeatTo
 0,tt3_vacuum.c,vacuum1_thread_writer,threadtest3.c,print_and_free_err,488,491,BASE,459,497
 1,tt3_vacuum.c,vacuum1_thread_vacuumer,threadtest3.c,print_and_free_err,488,491,BASE,459,497
 2,tt3_vacuum.c,vacuum1,threadtest3.c,print_and_free_err,488,491,BASE,459,497

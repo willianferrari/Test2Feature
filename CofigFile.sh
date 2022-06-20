@@ -39,18 +39,18 @@ git clone $REPGIT
 fi
 
 
-# Exec Feature Location
-echo "Running MineFeaturesLines"
-cd $PATHSCRIPT
-cd MineFeaturesLines
-gradle run -Pmyargs=$PATHSYS,"${PATHSCRIPT}/result-featurelocation",$NCOMMIT
+# # Exec Feature Location
+# echo "Running MineFeaturesLines"
+# cd $PATHSCRIPT
+# cd MineFeaturesLines
+# gradle run -Pmyargs=$PATHSYS,"${PATHSCRIPT}/result-featurelocation",$NCOMMIT
 
-#Exec Doxygen
-echo "Running Doxygen"
-cd $PATHSCRIPT
-cp -a Doxygen/Doxyfile $PATHSYS
-cd $PATHSYS
-doxygen Doxyfile
+# #Exec Doxygen
+# echo "Running Doxygen"
+# cd $PATHSCRIPT
+# cp -a Doxygen/Doxyfile $PATHSYS
+# cd $PATHSYS
+# doxygen Doxyfile
 
 #Exec ParserXML
 echo "Running MineTestLines"

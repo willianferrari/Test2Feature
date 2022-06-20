@@ -604,7 +604,7 @@ public class MiningFeaturesLines {
                 try {
                     FileWriter csvWriter = new FileWriter(featureCSV);
                     List<List<String>> headerRows = Arrays.asList(
-                            Arrays.asList("Commit Nr","TargetFile","FeatureName", "FetFrom", "FetTo")
+                            Arrays.asList("Commit Nr","TargetFile","FeatureName", "FeatFrom", "FeatTo")
                     );
                     for (List<String> rowData : headerRows) {
                         csvWriter.append(String.join(",", rowData));
