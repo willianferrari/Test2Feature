@@ -27,6 +27,6 @@ It will be necessary to update the parameters of the ConfigFile.sh file:
 * Type the following command in a command line:
   - ./ConfigFile.sh
  
-* The original paper was published at:
+ ## The original paper was published at:
 
-- Willian D. F. Mendonça, Silvia R. Vergilio, Gabriela K. Michelon, Alexander Egyed, and Wesley K. G. Assunção. 2022. Test2Feature: feature-based test traceability tool for highly configurable software. In Proceedings of the 26th ACM International Systems and Software Product Line Conference - Volume B (SPLC '22). Association for Computing Machinery, New York, NY, USA, 62–65. https://doi.org/10.1145/3503229.3547031
+* Willian D. F. Mendonça, Silvia R. Vergilio, Gabriela K. Michelon, Alexander Egyed, and Wesley K. G. Assunção. 2022. Test2Feature: feature-based test traceability tool for highly configurable software. In Proceedings of the 26th ACM International Systems and Software Product Line Conference - Volume B (SPLC '22). Association for Computing Machinery, New York, NY, USA, 62–65. https://doi.org/10.1145/3503229.3547031
